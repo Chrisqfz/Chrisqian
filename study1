@@ -1,0 +1,24 @@
+years_list = [1994, 1995, 1996, 1997, 1998, 1999]
+a = years_list[3]
+print(a)
+b = years_list[5]
+print(b)
+things_list = ['money', 'car', 'house']
+test_str = 'money'
+cc = test_str.capitalize()
+print(cc)
+things_list.remove('house')
+print(things_list)
+superise_list = ['da','ji','da','Da']
+c= superise_list[3]
+print(c)
+test_str = 'Da'
+c1= test_str.lower()
+print(c1)
+c2 = test_str.capitalize()
+print(c2)
+e2c_dict = {'dog':'go', 'cat':'mao', 'pig':'zhu'}
+a = e2c_dict.get('pig')
+print(a)
+aa =list(e2c_dict.items())
+print(aa)
