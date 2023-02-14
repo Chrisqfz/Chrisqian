@@ -1,0 +1,16 @@
+ # 60 sec/min * 60 min/hr * 24 hr/day
+second_per_day = 86400
+alphabet = ' '
+alphabet += 'abcdefg' 
+alphabet += 'hijklmnop' 
+alphabet += 'qrstuv' 
+alphabet += 'wxyz'
+print(alphabet)
+alphabet = 'abcdefg' + \
+     'hijklmnop' + \
+     'qrstuv' + \
+     'wxyz'
+print(alphabet)
+a = 1+2+\
+    3
+print(a)
