@@ -14,3 +14,24 @@ print(alphabet)
 a = 1+2+\
     3
 print(a)
+
+
+
+color = "black"
+if color == "red":
+   print("it's a apple")
+else:
+   print("it's a panda")
+x = 7
+if x == 5:
+    print("False")
+def can_run_for_president(age, is_natural_born_citizen):
+    return is_natural_born_citizen and (age >= 35)
+print(can_run_for_president(8, True))
+print(can_run_for_president(38, False))
+print(can_run_for_president(999, True))
+def can_run_for_date_Ivanka(size, is_good_looking_face):
+    return is_good_looking_face and (size >=18)
+print(can_run_for_date_Ivanka(5, True))
+print(can_run_for_date_Ivanka(20, False))
+                             
