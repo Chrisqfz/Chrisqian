@@ -33,5 +33,21 @@ print(can_run_for_president(999, True))
 def can_run_for_date_Ivanka(size, is_good_looking_face):
     return is_good_looking_face and (size >=18)
 print(can_run_for_date_Ivanka(5, True))
+
+
+some_list = []
+if some_list:
+   print("hello world")
+else:
+   print("hello word")
+def math_quiz_message(grade):
+    if grade < 60:
+        outcome = 'F'
+    else:
+        outcome = 'P'
+    print('You', outcome, 'the math_quiz with the grade of', grade)
+math_quiz_message(100)
+        
+                             
 print(can_run_for_date_Ivanka(20, False))
                              
