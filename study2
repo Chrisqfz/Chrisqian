@@ -34,6 +34,14 @@ def can_run_for_date_Ivanka(size, is_good_looking_face):
     return is_good_looking_face and (size >=18)
 print(can_run_for_date_Ivanka(5, True))
 
+count = 1
+while count <= 10:
+    print(count)
+    count += 1
+    if count == 11:
+        break
+    print(count)
+
 password = ('chris666')
 if password == ('chris888'):
     print('wrong password')
