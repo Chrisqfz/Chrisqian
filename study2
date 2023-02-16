@@ -34,6 +34,12 @@ def can_run_for_date_Ivanka(size, is_good_looking_face):
     return is_good_looking_face and (size >=18)
 print(can_run_for_date_Ivanka(5, True))
 
+password = ('chris666')
+if password == ('chris888'):
+    print('wrong password')
+else:
+    print('welcome')
+
 
 some_list = []
 if some_list:
@@ -51,3 +57,8 @@ math_quiz_message(100)
                              
 print(can_run_for_date_Ivanka(20, False))
                              
+password = ('chris666')
+if password == ('chris888'):
+    print('wrong password')
+else:
+    print('welcome')
